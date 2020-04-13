@@ -1,7 +1,7 @@
 # This repository contains different programs for LewanSoul smart servos (LX-16A)
 
 ## Preconditions
-- python3
+- Python 3
 - pyserial package (install it by command: pip install pyserial)
 - Set the correct SERIAL_PORT value in lx_setup.py
 
