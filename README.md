@@ -24,3 +24,15 @@ To change servo id from 2 to 10:<br/>
 
 To move servo with id 3 to position 500 (the servo range is from 0 to 1000):<br/>
 **python lx_setup.py set_pos 3 500**
+
+# src/controller.py
+This is an utility to control the robot arm:
+https://cults3d.com/en/3d-model/various/6dof-robot-arm-v2
+
+## Examples of usage:
+
+To record the sequence:<br/>
+**python controller.py record**
+
+To play the recording:<br/>
+**python controller.py play**
